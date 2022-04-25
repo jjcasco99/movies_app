@@ -1,0 +1,22 @@
+.upcoming-movies > h3 {
+    width: 30vw;
+    position: relative;
+    left: 2rem;
+    bottom: 30rem;
+    color:aqua;
+}
+
+.upcoming-movies > p {
+    position: relative;
+    bottom: 20rem;
+    color:aqua;
+    left: 2rem;
+    font-size: 14px;
+    width: 90vw;
+}
+
+
+.upcoming-movies > img {
+    width: 100vw;
+    opacity: 0.8;
+}

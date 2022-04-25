@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #0c0c22;
+    height: 8vh;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+}
+
+.nav-list > li > a{
+    text-decoration: none;
+    color: #aaa6ca;
+    font-weight: bold;
+    text-shadow: -0.1rem 0.1rem 0.1rem #4e4c6b;
+}
+
+.nav-list > li > a:hover {
+    text-decoration: underline 3px;
+}
