@@ -1,10 +1,10 @@
 import {React, useEffect, useState} from 'react'
-import Upcoming from '../../components/Upcoming/Upcoming'
+import Card from '../../components/Card/Card'
 import getUpcoming from '../../services/getUpcoming'
 import './Home.css'
 
 const Home = () => {
-  const [upcomingMovies, setUpcomingMovies] = useState([])
+  const [upcomingCardMovies, setUpcomingMovies] = useState([])
   useEffect(() => {
     getUpcoming().then(upcoming => setUpcomingMovies(upcoming))
   }, [])
@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className='home'>
       {
-        upcomingMovies.map(({id ,original_title, overview, poster_path}) => <Upcoming original_title={original_title} overview={overview} poster_path={poster_path}  key={id} />)
+        upcomingCardMovies.map(({id ,original_title, overview, poster_path}) => <Card original_title={original_title} overview={overview} poster_path={poster_path}  key={id} />)
       }
     </div>
   )
