@@ -6,10 +6,9 @@ const Nav = () => {
   return (
     <nav className='navbar'>
         <ul className='nav-list'>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/films">Films</Link></li>
-            <li><Link to="/series">Series</Link></li>
-            <li><Link to="/favourites">Favourites</Link></li>
+            <li><Link to="/">Upcoming movies</Link></li>
+            <li><Link to="/films">Search films</Link></li>
+            <li><Link to="/series">Search series</Link></li>
         </ul>
     </nav>
   )

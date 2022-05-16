@@ -1,4 +1,4 @@
-.cardFilms {
+.cardSeries {
     text-align: center;
     font-size: 14px;
     color: #aaa6ca;
@@ -11,7 +11,7 @@
     margin-top: 20px;
     font-family: 'Arial Black','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.upcoming-movies{
+.series{
     display: flex;
     flex-direction: column;
     margin: 1.5rem;
@@ -22,15 +22,15 @@
     backface-visibility: hidden;
 }
 
-#posterImage {
+#serieImage {
     height: 60vh;
 }
 
-.cardFilms:hover {
+.cardSeries:hover {
     transform: rotateY(180deg);
 }
 
-.backFace {
+.serie-backFace {
     position: absolute;
     width: 100%;
     height: 80%;
@@ -43,7 +43,7 @@
     background-color: #0c0c22;
 }
 
-#filmTitle {
+#serieTitle {
     color: #aaa6ca;
     margin-top: 3rem;
     margin-bottom: 6rem;

@@ -9,7 +9,7 @@ const getUpcoming = async () => {
   })
 
 
-  return upcomingMovies.slice(0,6);
+  return upcomingMovies.slice(0,25);
 }
 
 export default getUpcoming
