@@ -1,4 +1,4 @@
-MEJORAS POSIBLES: añadir un spinner , en las secciones buscar pelicula y buscar serie en vez de precargar unas peliculas de la API cargue la última búsqueda realizada (guardado en localStorage)
+MEJORAS POSIBLES: añadir un spinner , en las secciones buscar pelicula y buscar serie en vez de precargar unas peliculas de la API cargue la última búsqueda realizada (guardado en localStorage), despligue
 
 # Getting Started with Create React App
 
