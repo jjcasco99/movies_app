@@ -1,3 +1,5 @@
+MEJORAS POSIBLES: añadir un spinner , en las secciones buscar pelicula y buscar serie en vez de precargar unas peliculas de la API cargue la última búsqueda realizada (guardado en localStorage)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
