@@ -9,9 +9,7 @@ const Films = () => {
   const [filmSearch, setFilmSearch] = useState('');
   const [films, setFilms] = useState([]);
 
-  const escapeRegex = (text) => {
-    return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
-};
+  const escapeRegex = text => text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
  
   //ARREGLAR REGEX!
   const handleSubmit = (e) => {

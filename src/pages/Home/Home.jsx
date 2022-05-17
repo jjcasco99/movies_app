@@ -1,12 +1,12 @@
 import {React, useEffect, useState} from 'react'
 import Card from '../../components/Card/Card'
-import getUpcoming from '../../services/getUpcoming'
+import getTopRatedMovies from '../../services/getTopRatedMovies'
 import './Home.css'
 
 const Home = () => {
   const [upcomingCardMovies, setUpcomingMovies] = useState([])
   useEffect(() => {
-    getUpcoming().then(upcoming => setUpcomingMovies(upcoming))
+    getTopRatedMovies().then(upcoming => setUpcomingMovies(upcoming))
   }, [])
   
 
